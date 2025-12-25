@@ -1,0 +1,89 @@
+STUDENT GRADE CALCULATOR – TEST CASES
+
+-----------------------------------
+Test Case 1
+Input:
+Student Name: Priya
+Marks: 95
+Expected Output:
+Grade: A
+Message: Excellent performance
+
+-----------------------------------
+Test Case 2
+Input:
+Student Name: Rahul
+Marks: 85
+Expected Output:
+Grade: B
+Message: Very Good
+
+-----------------------------------
+Test Case 3
+Input:
+Student Name: Anjali
+Marks: 75
+Expected Output:
+Grade: C
+Message: Good job
+
+-----------------------------------
+Test Case 4
+Input:
+Student Name: Rohan
+Marks: 65
+Expected Output:
+Grade: D
+Message: You passed
+
+-----------------------------------
+Test Case 5
+Input:
+Student Name: Kiran
+Marks: 45
+Expected Output:
+Grade: F
+Message: Encouragement message
+
+-----------------------------------
+Test Case 6 (Boundary Test)
+Input:
+Marks: 100
+Expected Output:
+Grade: A
+
+-----------------------------------
+Test Case 7 (Boundary Test)
+Input:
+Marks: 0
+Expected Output:
+Grade: F
+
+-----------------------------------
+Test Case 8 (Invalid Input)
+Input:
+Marks: -10
+Expected Output:
+Error message: Marks must be between 0 and 100
+
+-----------------------------------
+Test Case 9 (Invalid Input)
+Input:
+Marks: 150
+Expected Output:
+Error message: Marks must be between 0 and 100
+
+-----------------------------------
+Test Case 10 (Non-numeric Input)
+Input:
+Marks: abc
+Expected Output:
+Error message: Please enter numeric marks only
+
+-----------------------------------
+Test Case 11 (Multiple Students)
+Input:
+Student 1 → Valid input
+Student 2 → Valid input
+Expected Output:
+Program continues until user selects exit
